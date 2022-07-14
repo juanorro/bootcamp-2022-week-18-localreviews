@@ -16,7 +16,7 @@ export default function Home({ restaurants, hotels, thingsToDo }) {
       <div className='text-center'>
         <h1 className='mt-10 font-extrabold text-2xl'>The best in town</h1>
 
-        <div className='flex flex-col md:grid md:grid-cols-3'>
+        <div className='grid md:grid-cols-3'>
           {restaurants && (
             <div>
               <h2 className='mt-10 font-bold'>Restaurants</h2>
